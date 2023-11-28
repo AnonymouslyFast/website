@@ -1,0 +1,98 @@
+.homeSec {
+    margin-top: 12%;
+    margin-bottom: 23%;
+}
+
+.Title {
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    justify-self: center;
+    justify-content: center;
+    display: flex;
+    color: azure;
+    background: #212020;
+
+}
+
+#aboutSUB {
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    justify-content: center;
+    display: flex;
+    color: azure;
+    background: #212020;
+    padding-top: 1.5%;
+}
+
+#betaSUB {
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    justify-content: center;
+    display: flex;
+    color: indianred;
+    background: #212020;
+}
+
+.line {
+    color: white !important;
+    justify-self: center !important;
+    width: 600px !important;
+    max-width: 600px;
+    min-width: 400px;
+    display: flex;
+    background: #212020;
+    margin: unset;
+    opacity:unset;
+    padding: unset;
+}
+
+.secList {
+    display: flex !important;
+    width: 100% !important;
+    justify-content: center !important;
+    justify-self: center;
+    font-size: 25px;
+    color: lightblue !important;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.aboutSec {
+    width: 100%;
+    height: auto;
+    background-color:rgb(50, 50, 50);
+    border-top-width: 5px;
+    border-top-color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#about {
+    font-size: 55px;
+    font-family: 'Roboto', sans-serif;
+    justify-self: center;
+    justify-content: center;
+    display: flex;
+    color: azure;
+    margin-top: 5%;
+    background-color:rgb(50, 50, 50);
+}
+
+#aboutList {
+    margin-left: 15%;
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    color: azure;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#aboutL {
+    font-size: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 12%;
+    margin-bottom: 0.5%;
+    display: flex;
+    color: lightblue;
+    margin-top: 5%;
+}

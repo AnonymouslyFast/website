@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>AnonymouslyFast</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="styles/Home.css">
+    <link rel="import" href="nav.js">
+</head>
+
+<body style="background-color: #212020; width: 100%;">
+
+   <div class="homeSec">
+        <div class="Title">
+            AnonymouslyFast
+        </div>
+
+        <p id="aboutSUB">Hello user! This website is for me to display my work</p>
+        <p id="betaSUB">Currently this website is still in beta.</p>
+
+        <div style="width: 100%; justify-content: center; display: flex; padding-top:0.5%; padding-bottom: 1%;">
+            <hr class="line" id="line">
+        </div>
+
+        <div class="secList">
+            <ul class="nav" data-bs-theme="dark">
+                <li class="nav-item">
+                <a class="nav-link" onclick="goToSection('about')" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="goToSection('projects')" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="goToSection('contact')" href="#">Contacts</a>
+                </li>
+            </ul>
+        </div>
+   </div>
+
+
+    <div>
+        
+        <div id="about">
+            About
+        </div>
+
+       <div class="aboutSec">
+            <div>
+                <div id="aboutL">
+                    About this Website:
+                </div>
+
+
+                <div id="aboutList">
+                    <ul style="list-style-type:decimal;">
+                        <li>This website will be updated regularly</li>
+                        <li>This website is my personal website and will be used to show off my skills</li>
+                        <li>This website is open source on my github: <a id="hideLink" href="https://github.com/EcoStudios/anonymouslyfast">https://github.com/EcoStudios/anonymouslyfast<a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div>
+                <div id="aboutL">
+                    About me:
+                </div>
+    
+    
+                <div id="aboutList">
+                    <ul style="list-style-type:decimal;">
+                        <li> I am 16 years old.</li>
+                        <li> I've been a developer for 3 years.</li>
+                        <li> My first programming language was Java.</li>
+                        <li> I am currently making a game in C# with the game engine Unity.</li>
+                        <li> My first name is Caleb.</li>
+                    </ul>
+                </div>
+            </div>
+       </div>
+
+
+
+
+    </div>
+
+
+
+
+</body>
