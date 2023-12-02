@@ -6,21 +6,26 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
-	<link rel="stylesheet" href="styles/Home.css">
-    <link rel="import" href="nav.js">
+	  <link rel="stylesheet" href="styles/Home.css">
+    <script src="scripts/nav.js"></script> 
+    <script src="scripts/scroll.js"></script> 
 </head>
+
 
 <body style="background-color: #212020; width: 100%;">
 
-   <div class="homeSec">
+   <div class="homeSec" id="home">
         <div class="Title">
             AnonymouslyFast
         </div>
 
-        <p id="aboutSUB">Hello user! This website is for me to display my work</p>
+        <p id="aboutSUB">Greetings user! This website is to showcase my work.</p>
         <p id="betaSUB">Currently this website is still in beta.</p>
 
         <div style="width: 100%; justify-content: center; display: flex; padding-top:0.5%; padding-bottom: 1%;">
@@ -33,7 +38,7 @@
                 <a class="nav-link" onclick="goToSection('about')" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" onclick="goToSection('projects')" href="#">Projects</a>
+                    <a class="nav-link" onclick="goToSection('projects')" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" onclick="goToSection('contact')" href="#">Contacts</a>
@@ -41,6 +46,24 @@
             </ul>
         </div>
    </div>
+
+   <style>
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+    </style>
+    
+   <a onclick="goToSection('home')" href="#">
+    
+    <button class="hidden" id="backtop"><span class="material-symbols-outlined">
+        arrow_upward
+    </span></button>
+
+   </a>
 
 
     <div>
@@ -50,11 +73,11 @@
         </div>
 
         <div style="width: 100%; justify-content: center; display: flex; padding-bottom: 1%;  background-color:rgb(50, 50, 50);">
-            <hr id="linee">
+            <hr id="linea">
         </div>
 
         <div style="width: 100%; justify-content: center; display: flex; background-color: rgb(50, 50, 50);">
-            <p id="aboutPara">Hello! I am AnonymouslyFast also known as Caleb. I am a 16 year old located in the United States, in South Carolina. I've started programming at the end of 2021 and I've been hard at work every since.</p>
+            <p id="aboutPara">Greetings! I'm AnonymouslyFast, an emerging developer who embarked on this coding journey at the close of 2021. Since then, my commitment to continuous learning has been unwavering. Among my notable achievements are some groundbreaking projects, including Something,</p>
         </div>
 
         <div id="PRG">
@@ -70,29 +93,107 @@
                 <li class="list-group-item d-flex justify-content-between align-items-start">
                   <div class="ms-2 me-auto">
                     <div class="fw-bold">Java</div>
-                    Java was my first programming language that I learnt in 2022. This would lead me to make Minecraft plugins.
+                    In 2022, I acquired proficiency in Java, marking my initiation into the realm of programming. Subsequently, I leveraged this knowledge to develop plugins for Minecraft.
                   </div>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-start">
                     <div class="ms-2 me-auto">
                       <div class="fw-bold">Python</div>
-                      Python was my second language and lead me to make a discord bot.
+                      Following my mastery of Java, I delved into Python, my second programming language. This proficiency empowered me to create a Discord bot, showcasing my ability to apply programming skills across diverse applications.
                     </div>
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-start">
                     <div class="ms-2 me-auto">
                       <div class="fw-bold">HTML, CSS</div>
-                      HTML and CSS I learnt to make websites in June of 2023
+                      In June 2023, I expanded my skill set by acquiring proficiency in HTML and CSS, enabling me to craft dynamic and visually appealing websites.
                     </div>
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-start">
                     <div class="ms-2 me-auto">
                       <div class="fw-bold">C#</div>
-                      I am still learning C#, but I started in August of 2023. I am using C# to make a game.
+                      Since August 2023, I have been diligently cultivating my expertise in C#. While I am currently in the learning phase, my objective is to employ C# for the development of a game, demonstrating my commitment to continual growth and versatility in programming languages.
                     </div>
                   </li>
               </ol>
         </div>
+    </div>
+
+
+    <div id="projects">
+      Projects
+    </div>
+
+    <div style="width: 100%; justify-content: center; display: flex; padding-bottom: 1%;  background-color:#212020;">
+      <hr id="linep">
+    </div>
+
+    <div class="ProjectsList">
+      <ul class="nav nav-underline" data-bs-theme="dark">
+          <li class="nav-item">
+            <a class="nav-link active" href="#projects" id="EPTAB" onclick="loadProject('ep')">EcoProjects</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#projects" id="WEBTAB" onclick="loadProject('web')">Websites</a>
+          </li>
+      </ul>
+  </div>
+
+  <div class="EcoProjects" id="ep">
+
+      <div style="width: 100%; display: flex; justify-content: center; margin-top: 4vw;">
+        <div class="aboutEPSEC">
+          <div id="abEP">About</div>
+  
+          <div style="width: 100%; justify-content: center; display: flex;">
+            <p id="EPPARA">EcoProjects serves as a distinguished development studio, specializing in the creation of a diverse array of projects, with a primary focus on the development of games and Minecraft Servers. Our team comprises individuals with distinct expertise, including three game developers proficient in C# and Unity/Map Design, alongside five Skript developers and two Java developers.</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="width: 100%; display: flex; justify-content: center;">
+        <div class="bottomEP">
+          <a target="_blank" rel="noopener" href="https://discord.gg/pud3Fw5yD8"><button class="btn btn-light">Join Discord</button></a>
+          <p style="font-size: 30px; color: white; margin-top: 0%; font-style:oblique;">•</p>
+          <a target="_blank" rel="noopener" href="https://anonymouslyfast.me/EcoProjects/"><button class="btn btn-light">Go to Website</button></a>
+        </div>
+      </div>
+
+  </div>
+
+
+  <div class="Websites hidden" id="web">
+    
+    <div style="width: 100%; display: flex; justify-content: center; margin-top: 4vw;">
+      <div class="aboutEPSEC">
+        <div id="abEP">AnonymouslyFast</div>
+
+        <div style="width: 100%; justify-content: center; display: flex;">
+          <p id="WBPara">Welcome to "AnonymouslyFast," the current platform you are navigating. Representing the second generation or revamp of its predecessor, this website serves as a showcase for my skills as a developer. For a more comprehensive understanding, kindly explore the About section by clicking the button below.</p>
+        </div>
+      </div>
+    </div>
+    <div style="width: 100%; display: flex; justify-content: center;">
+      <div class="bottomEP">
+        <a onclick="goToSection('about')" href="#about"><button class="btn btn-light">Go to About Section</button></a>
+      </div>
+    </div>
+
+    <div style="width: 100%; display: flex; justify-content: center; margin-top: 1vw;">
+      <div class="aboutEPSEC">
+        <div id="abEP">EcoProjects</div>
+  
+        <div style="width: 100%; justify-content: center; display: flex;">
+          <p id="WBPara">Welcome to the "EcoProjects" website, dedicated to showcasing the endeavors of my development studio, also named EcoProjects. Here, you will find a comprehensive display of collaborative projects undertaken by myself and the team. Gain insights into the multifaceted offerings of our development studio by exploring the content provided. To access the website, kindly click the button below.</p>
+        </div>
+      </div>
+    </div>
+    <div style="width: 100%; display: flex; justify-content: center;">
+      <div class="bottomEP">
+        <a target="_blank" rel="noopener" href="https://anonymouslyfast.me/EcoProjects/"><button class="btn btn-light">Go to EcoProjects</button></a>
+      </div>
+    </div>
+
+  </div>
 
 
 

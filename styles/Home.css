@@ -77,6 +77,17 @@
     background-color:rgb(50, 50, 50);
 }
 
+#linea {
+    color: white !important;
+    width: 500px !important;
+    max-width: 500px;
+    min-width: 500px;
+    background-color:rgb(50, 50, 50);
+    margin: unset;
+    opacity:unset;
+    padding: unset;
+}
+
 #linee {
     color: white !important;
     width: 500px !important;
@@ -106,6 +117,8 @@
     
 }
 
+
+
 #PRG {
     font-size: 55px;
     font-family: 'oswald', sans-serif;
@@ -115,4 +128,106 @@
     color: azure;
     padding-top: 2%;
     background-color:rgb(50, 50, 50);
+}
+
+#projects {
+    font-size: 55px;
+    font-family: 'oswald', sans-serif;
+    justify-self: center;
+    justify-content: center;
+    display: flex;
+    color: azure;
+    padding-top: 2%;
+    background-color:#212020;
+}
+
+#linep {
+    color: white !important;
+    width: 300px !important;
+    max-width: 300px;
+    min-width: 300px;
+    background-color:rgb(50, 50, 50);
+    margin: unset;
+    opacity:unset;
+    padding: unset;
+}
+
+
+.ProjectsList {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-self: center;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.EcoProjects {
+    width: 100%;
+    height: auto;
+    background-color: #212020;
+}
+
+#abEP {
+    font-size: 30px;
+    font-family: 'oswald', sans-serif;
+    justify-self: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 2%;
+    color: azure;
+    padding-top: 2%;
+    background-color:#212020;
+}
+
+.aboutEPSEC {
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    width: fit-content;
+    padding: 2%;
+    border-radius: 1vw;
+    margin-bottom: 1%;
+}
+
+
+#EPPARA {
+    font-size: 20px;
+    width: 550px;
+    max-width: 550px;
+    min-width: 550px;
+    font-family: 'Nunito Sans', sans-serif;
+    justify-self: center;
+    justify-content: center;
+    display: flex;
+    color: azure;
+}
+
+.bottomEP {
+    width: 20%;
+    max-width: 20%;
+    min-width: 20%;
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+}
+
+
+.Websites {
+    width: 100%;
+    height: auto;
+    background-color: #212020;
+}
+
+#WBPara {
+    font-size: 20px;
+    width: 650px;
+    max-width: 650px;
+    min-width: 650px;
+    font-family: 'Nunito Sans', sans-serif;
+    justify-self: center;
+    justify-content: center;
+    display: flex;
+    color: azure;    
 }
