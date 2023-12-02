@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles/index.css">
 	  <link rel="stylesheet" href="styles/Home.css">
     <script src="scripts/nav.js"></script> 
     <script src="scripts/scroll.js"></script> 
@@ -19,22 +19,22 @@
 
 <script>
   function showGIT() {
-    document.getElementById('gitPara').classList.remove('hidden');
+    document.getElementById('GTLP').classList.remove('hidden');
   }
 
   function closeGIT() {
-    document.getElementById('gitPara').classList.add('hidden');
+    document.getElementById('GTLP').classList.add('hidden');
   }
 </script>
 
 <body style="background-color: #212020; width: 100%; display: inline;">
 
   <div style="width: 100%;">
-    <div class="githubLogo" onmouseover="showGIT()" onmouseleave="closeGIT()">
+    <div class="GTL" onmouseover="showGIT()" onmouseleave="closeGIT()">
       <a target="_blank" rel="noopener" href="https://github.com/AnonymouslyFast/website" ><img src="images/github-mark-white.png" width="50px" alt="Github Logo"></a>
     </div>
 
-    <div class="hidden" id="gitPara">
+    <div class="hidden" id="GTLP">
       <p>Open website's github Repository</p>
     </div>
 
