@@ -210,7 +210,7 @@
     font-family: 'Nunito Sans', sans-serif;
     display: flex;
     justify-content: space-evenly;
-    margin: 0%;
+    margin-bottom: 2%;
 }
 
 
@@ -230,4 +230,80 @@
     justify-content: center;
     display: flex;
     color: azure;    
+}
+
+
+#contacts {
+    font-size: 55px;
+    font-family: 'oswald', sans-serif;
+    justify-self: center;
+    justify-content: center;
+    display: flex;
+    color: azure;
+    padding-top: 2%;
+    background-color: rgb(50, 50, 50);
+}
+
+#contactpara {
+    font-size: 20px;
+    width: 400px;
+    max-width: 400px;
+    min-width: 400px;
+    font-family: 'Nunito Sans', sans-serif;
+    display: inline;
+    color: azure;
+    background-color: rgb(50, 50, 50);    
+}
+
+#linec {
+    color: white !important;
+    width: 410px !important;
+    max-width: 700px;
+    min-width: 700px;
+    background-color:rgb(50, 50, 50);
+    margin: unset;
+    opacity:unset;
+    padding: unset;
+}
+
+.contact {
+    width: 600px;
+    max-width: 600px;
+    min-width: 600px;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0%;
+}
+
+#contactparaa {
+    font-size: 20px;
+    width: 680px;
+    max-width: 680px;
+    min-width: 680px;
+    font-family: 'Nunito Sans', sans-serif;
+    display: inline;
+    color: azure;
+    background-color: rgb(50, 50, 50); 
+    margin-bottom: 10%;   
+}
+
+.githubLogo {
+    right: 40px;
+    top: 30px;
+    position:absolute;
+}
+
+#gitPara {
+    right: 100px;
+    top: 30px;
+    position:absolute;
+    color: azure;
+    justify-content: center;
+    background-color: rgb(50, 50, 50);
+    border-radius: 1vw;
+    padding: 0.5%;
+    padding-top: 1%;
+    font-family: 'Nunito Sans', sans-serif;
 }
