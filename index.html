@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/index.css">
 	  <link rel="stylesheet" href="styles/Home.css">
+    <link rel="stylesheet" href="styles/Mobile.css">
     <script src="scripts/nav.js"></script> 
     <script src="scripts/scroll.js"></script> 
 </head>
@@ -23,6 +24,7 @@
   }
 
   function closeGIT() {
+    if (document.max)
     document.getElementById('GTLP').classList.add('hidden');
   }
 </script>
@@ -33,10 +35,20 @@
     <div class="GTL" onmouseover="showGIT()" onmouseleave="closeGIT()">
       <a target="_blank" rel="noopener" href="https://github.com/AnonymouslyFast/website" ><img src="images/github-mark-white.png" width="50px" alt="Github Logo"></a>
     </div>
+    
 
     <div class="hidden" id="GTLP">
       <p>Open website's github Repository</p>
     </div>
+
+    <div class="GTLPP" onmouseover="showGIT()" onmouseleave="closeGIT()">
+      <a target="_blank" rel="noopener" href="https://github.com/AnonymouslyFast/website" ><img src="images/github-mark-white.png" width="25px" alt="Github Logo"></a>
+    </div>
+
+    <div class="mobileGP" id="GTLP">
+      <p>Open website's github Repository</p>
+    </div>
+
 
   </div>
 
@@ -229,13 +241,13 @@
       <p id="contactpara">The only contact information I have right now is <a id="hideLink" onmouseleave="document.getElementById('email').style.color = 'white';" onmouseover="document.getElementById('email').style.color = 'cyan';" onclick="goToSection('email')" href="#email">Email</a> and <a id="hideLink" onmouseleave="document.getElementById('discord').style.color = 'white';"  onmouseover="document.getElementById('discord').style.color = 'cyan';" onclick="goToSection('discord')" href="#discord">Discord</a></p>
     </div>
 
-    <div style="width: 100%; display: flex; justify-content: center; margin: 2vh;">
+    <div style="width: 100vw; display: flex; justify-content: center; margin: 2vh;">
       <div class="contact">
-        <div id="email">
+        <div id="email mobileE">
           Email: fastskating12@gmail.com
         </div>
-        <p style="font-size: 17px; color: white; margin-top: 0%; font-style:oblique;">•</p>
-        <div id="discord">
+        <p id="mobileDO" style="font-size: 17px; color: white; margin-top: 0%; font-style:oblique;">•</p>
+        <div id="discord mobileD">
           Discord Username: .anonymouslyfast
         </div>
       </div>

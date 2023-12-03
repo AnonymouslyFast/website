@@ -1,11 +1,11 @@
-@media only screen and (min-width: 421px) {
+@media only screen and (max-width: 420px) {
     .homeSec {
-        margin-top: 12%;
-        margin-bottom: 23%;
+        margin-top: 20%;
+        margin-bottom: 40%;
     }
     
     .Title {
-        font-size: 60px;
+        font-size: 40px;
         font-family: 'Oswald', sans-serif;
         justify-self: center;
         justify-content: center;
@@ -16,7 +16,7 @@
     }
     
     #aboutSUB {
-        font-size: 20px;
+        font-size: 12px;
         font-family: 'Nunito Sans', sans-serif;
         justify-content: center;
         display: flex;
@@ -24,22 +24,24 @@
         background: #212020;
         padding-top: 1.5%;
     }
+
     
     #betaSUB {
-        font-size: 20px;
+        font-size: 12px;
         font-family: 'Nunito Sans', sans-serif;
         justify-content: center;
         display: flex;
         color: indianred;
         background: #212020;
+        padding-top: 1.5%;
     }
     
     .line {
         color: white !important;
         justify-self: center !important;
-        width: 600px !important;
-        max-width: 600px;
-        min-width: 400px;
+        width: 300px !important;
+        max-width: 300px;
+        min-width: 300px;
         display: flex;
         background: #212020;
         margin: unset;
@@ -52,7 +54,7 @@
         width: 100% !important;
         justify-content: center !important;
         justify-self: center;
-        font-size: 25px;
+        font-size: 15px;
         color: lightblue !important;
         font-family: 'Nunito Sans', sans-serif;
     }
@@ -68,7 +70,7 @@
     }
     
     #about {
-        font-size: 55px;
+        font-size: 40px;
         font-family: 'oswald', sans-serif;
         justify-self: center;
         justify-content: center;
@@ -80,45 +82,22 @@
     
     #linea {
         color: white !important;
-        width: 500px !important;
-        max-width: 500px;
-        min-width: 500px;
+        width: 200px !important;
+        max-width: 200px;
+        min-width: 200px;
         background-color:rgb(50, 50, 50);
         margin: unset;
         opacity:unset;
         padding: unset;
     }
     
-    #linee {
-        color: white !important;
-        width: 500px !important;
-        max-width: 500px;
-        min-width: 500px;
-        background-color:rgb(50, 50, 50);
-        margin: unset;
-        opacity:unset;
-        padding: unset;
-    }
     
-    #backtop {
-        position: fixed;
-        right: 2vw;
-        bottom: 4vh;
-        background-color: rgb(36, 20, 20);
-        font-size: 20px;
-        border: none;
-        justify-content: center;
-        color: white;
-        display: flex;
-        padding: 0.5vw;
-        border-radius: 30%;
-      }
-
     #aboutPara {
-        font-size: 20px;
-        width: 500px;
-        max-width: 500px;
-        min-width: 500px;
+        margin-top: 1%;
+        font-size: 12px;
+        width: 300px;
+        max-width: 300px;
+        min-width: 300px;
         font-family: 'Nunito Sans', sans-serif;
         justify-self: center;
         justify-content: center;
@@ -126,16 +105,28 @@
         color: azure;
         background-color:rgb(50, 50, 50);
     }
+
+    #linee {
+        color: white !important;
+        width: 350px !important;
+        max-width: 350px;
+        min-width: 350px;
+        background-color:rgb(50, 50, 50);
+        margin: unset;
+        opacity:unset;
+        padding: unset;
+    }
     
     .programmingLangs {
-        width: 500px;
-        
+        width: 350px;
+        margin-bottom: 50px;
+        font-size: 12px;
     }
     
     
     
     #PRG {
-        font-size: 55px;
+        font-size: 40px;
         font-family: 'oswald', sans-serif;
         justify-self: center;
         justify-content: center;
@@ -144,9 +135,10 @@
         padding-top: 2%;
         background-color:rgb(50, 50, 50);
     }
+
     
     #projects {
-        font-size: 55px;
+        font-size: 40px;
         font-family: 'oswald', sans-serif;
         justify-self: center;
         justify-content: center;
@@ -173,7 +165,7 @@
         width: 100%;
         justify-content: center;
         justify-self: center;
-        font-size: 20px;
+        font-size: 15px;
         font-family: 'Nunito Sans', sans-serif;
     }
     
@@ -184,7 +176,7 @@
     }
     
     #abEP {
-        font-size: 30px;
+        font-size: 20px;
         font-family: 'oswald', sans-serif;
         justify-self: center;
         justify-content: center;
@@ -207,10 +199,10 @@
     
     
     #EPPARA {
-        font-size: 20px;
-        width: 550px;
-        max-width: 550px;
-        min-width: 550px;
+        font-size: 12px;
+        width: 300px;
+        max-width: 300px;
+        min-width: 300px;
         font-family: 'Nunito Sans', sans-serif;
         justify-self: center;
         justify-content: center;
@@ -219,13 +211,14 @@
     }
     
     .bottomEP {
-        width: 20%;
-        max-width: 20%;
-        min-width: 20%;
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        font-size: 15px !important;
         font-family: 'Nunito Sans', sans-serif;
         display: flex;
         justify-content: space-evenly;
-        margin-bottom: 2%;
+        margin-bottom: 50px;
     }
     
     
@@ -236,10 +229,10 @@
     }
     
     #WBPara {
-        font-size: 20px;
-        width: 650px;
-        max-width: 650px;
-        min-width: 650px;
+        font-size: 12px;
+        width: 350px;
+        max-width: 350px;
+        min-width: 350px;
         font-family: 'Nunito Sans', sans-serif;
         justify-self: center;
         justify-content: center;
@@ -249,7 +242,7 @@
     
     
     #contacts {
-        font-size: 55px;
+        font-size: 40px;
         font-family: 'oswald', sans-serif;
         justify-self: center;
         justify-content: center;
@@ -260,10 +253,11 @@
     }
     
     #contactpara {
-        font-size: 20px;
-        width: 400px;
-        max-width: 400px;
-        min-width: 400px;
+        font-size: 12px;
+        margin-top: 1%;
+        width: 250px;
+        max-width: 250px;
+        min-width: 250px;
         font-family: 'Nunito Sans', sans-serif;
         display: inline;
         color: azure;
@@ -272,9 +266,9 @@
     
     #linec {
         color: white !important;
-        width: 410px !important;
-        max-width: 700px;
-        min-width: 700px;
+        width: 350px !important;
+        max-width: 350px;
+        min-width: 350px;
         background-color:rgb(50, 50, 50);
         margin: unset;
         opacity:unset;
@@ -282,48 +276,42 @@
     }
     
     .contact {
-        width: 600px;
-        max-width: 600px;
-        min-width: 600px;
+        font-size: 12px;
+        width: 325px;
         color: white;
         font-family: 'Nunito Sans', sans-serif;
         display: flex;
         justify-content: space-evenly;
         margin: 0%;
     }
+
+    #mobileDO {
+        height: unset;
+        display: none;
+        width: unset;
+        padding: unset;
+        margin: unset;
+        min-height: unset;
+        max-height: unset;
+        max-width: unset;
+        min-width: unset;
+        visibility: hidden;
+    }
     
     #contactparaa {
-        font-size: 20px;
-        width: 680px;
-        max-width: 680px;
-        min-width: 680px;
+        font-size: 12px;
+        width: 300px;
+        max-width: 300px;
+        min-width: 300px;
         font-family: 'Nunito Sans', sans-serif;
         display: inline;
         color: azure;
         background-color: rgb(50, 50, 50); 
         margin-bottom: 10%;   
     }
+
     
     .GTL {
-        right: 40px;
-        top: 30px;
-        position:absolute;
-    }
-    
-    #GTLP {
-        right: 100px;
-        top: 30px;
-        position:absolute;
-        color: azure;
-        justify-content: center;
-        background-color: rgb(50, 50, 50);
-        border-radius: 1vw;
-        padding: 0.5%;
-        padding-top: 1%;
-        font-family: 'Nunito Sans', sans-serif;
-    }
-
-    .mobileGP {
         height: unset;
         display: none;
         width: unset;
@@ -337,15 +325,37 @@
     }
 
     .GTLPP {
-        height: unset;
-        display: none;
-        width: unset;
-        padding: unset;
-        margin: unset;
-        min-height: unset;
-        max-height: unset;
-        max-width: unset;
-        min-width: unset;
-        visibility: hidden;
+        right: 20px;
+        top: 10px;
+        position:absolute;
     }
+    
+    .mobileGP {
+        right: 50px;
+        top: 10px;
+        font-size: 10px;
+        position: absolute;
+        color: azure;
+        justify-content: center;
+        background-color: rgb(50, 50, 50);
+        border-radius: 200px;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 2.5%;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+
+    #backtop {
+        position: fixed;
+        right: 8vw;
+        bottom: 2vh;
+        background-color: rgb(36, 20, 20);
+        font-size: 12px;
+        border: none;
+        justify-content: center;
+        color: white;
+        display: flex;
+        padding: 0.5vw;
+        border-radius: 30%;
+      }
 }

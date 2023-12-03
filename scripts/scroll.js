@@ -1,4 +1,10 @@
 const showOnPx = 1;
+var scroll = 810;
+
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+  scroll = 374;
+}
+
 
 const scrollContainer = () => {
   document.scrollingElement;
