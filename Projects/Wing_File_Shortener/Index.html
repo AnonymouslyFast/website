@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Password Genetator - AnonymouslyFast</title>
+	<title>Wing Genetator - AnonymouslyFast</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -87,10 +87,25 @@
       Generator Output
     </div>
 
-
+    <div class="output">
+      X
+    </div>
     <div class="passwordGen">
       <div id="gen">
         <input style="color: black;" id="a" class="form-control" type="text" value="" aria-label="readonly input example" readonly>
+      </div>
+    </div>
+   
+    <div id="copy">
+      <button type="button" class="btn btn-primary" onclick="document.getElementById('a').select(); document.execCommand('copy'); alert('Copied.')">Copy Output</button>
+    </div>
+
+    <div class="output">
+      Y
+    </div>
+    <div class="passwordGen">
+      <div id="gen">
+        <input style="color: black;" id="aee" class="form-control" type="text" value="" aria-label="readonly input example" readonly>
       </div>
     </div>
    
