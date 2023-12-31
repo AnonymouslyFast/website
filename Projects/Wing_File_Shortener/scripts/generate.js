@@ -12,6 +12,9 @@ function convert(string) {
             output += ie+1 + ",";
           }
         }
+        if (output.charAt(output.length-1) == ",") {
+          output = output.slice(0, -1);
+        }
       }
       if (i+1 != line.length) {
         output += "|";
